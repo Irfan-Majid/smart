@@ -1,0 +1,125 @@
+body{
+    font-size: 11px!important;
+}
+
+.theme-loader .loader{
+    left:50%;
+    top:50%;
+    position:absolute;
+    display:block;
+    width:100px;
+    height:100px;
+    margin:20px 0 0 30px
+}
+
+.card{
+    padding: 0!important;
+}
+
+.page-wrapper{
+    padding: 5px!important;
+}
+
+.card .card-header{
+    padding: 15px 10px 10px;
+}
+.card .card-block {
+    padding: 15px;
+}
+tbody{
+    text-align: center;
+}
+.table th, .table td{
+    padding: 5px 3px!important;
+    vertical-align: middle;
+}
+.table th{
+    text-align: center;
+}
+.breakWords{
+    word-wrap: break-word;
+    max-width: 200px;
+    min-width: 200px;
+    white-space: normal;
+    text-align: left;
+}
+
+
+.icon-btn .btn{
+    padding: 3px 8px;
+    line-height: 16px;
+    font-size: 10px;
+}
+
+.btn i {
+    margin-right: 0!important;
+}
+.input-group {
+    margin-bottom: 5px;
+}
+.input-group .btn{
+    padding: 6px 14px;
+}
+.input-group-addon.form-control-sm, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.input-group-addon.btn {
+    font-size: 11px;
+}
+
+.sub-title {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+
+.icons-alert:before {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icons-alert:before {
+    line-height: 17px;
+}
+button.close {
+     margin-top: 0;
+}
+
+.message{
+    position: absolute;
+    width: 75%;
+    min-height:150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+.message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table-bordered td, .table-bordered th{
+    border: 1px solid gainsboro!important;
+}
+.table-styling .table-info, .table-styling.table-info{
+    background-color: #f6f9f9!important;
+    color: #191818!important;
+    border: 3px solid #008fa1!important;
+}
+.table-styling .table-info tfoot, .table-styling.table-info tfoot {
+    background-color: #008fa1;
+    border: 3px solid #008fa1;
+    color: white;
+}
+.table-styling .table-info thead, .table-styling.table-info thead {
+    color: white;
+}
+.input-group-info .input-group-addon{
+    /*background-color: #008fa1!important;*/
+}
+.input-group input{
+    position: relative;
+}
+.input-group .messages{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
