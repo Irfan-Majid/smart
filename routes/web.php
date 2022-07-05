@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Artisan;
 //Software Setup Routes
 Route::get('reboot', function () {
     Artisan::call('optimize:clear');
+    Artisan::call('view:clear');
     dd('Done');
 });
 
@@ -36,4 +37,7 @@ Route::group(['middleware'=>'auth'], function(){
     Route::resource('roles', 'RoleController');
     Route::resource('supplier', 'SupplierController');
     Route::resource('material', 'MaterialController');
+    Route::resource('unit', 'UnitController');
+    Route::resource('client', 'ClientController');
+    Route::post('ajaxCall', 'ClientController@ajaxReceive')->name('ajaxCall');
 });
